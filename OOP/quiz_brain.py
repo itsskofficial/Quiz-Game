@@ -11,7 +11,7 @@ class Quiz:
         self.check_answer(a)
 
     def question_remaining(self):
-        if self.question_no == len(self.question_list):
+        if self.question_no + 1 == len(self.question_list):
             return False
         else:
             return True
